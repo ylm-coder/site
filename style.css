@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100vh;
+}
+* {
+    box-sizing: border-box;
+}
+header,section,aside,main,footer,nav,main,aside,article,figure{
+    display: block;
+}
+nav {
+    position: fixed;
+    width: 100%;
+}
+nav .content {
+    width: 1200px;
+    margin: auto;
+    
+}
+nav .logo a { 
+     font-size: 22px;
+     color: antiquewhite;
+     max-width: 250px;
+}
+nav .menu{
+    float: right;
+}
+.topnav {
+    background-color: black;
+    border-bottom: 1.5px solid;
+}
+.topnav a {
+    display: block;
+    float: left;
+    color: aqua;
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.topnav .icon {
+    float: right;
+    display: none;
+}
+header {
+    height: 80%;
+    padding: 100px 30px 30px 20px;
+    text-align: center; 
+    background-color: gray;
+    font-size: 25px;
+
+
+}
+section {
+    margin: 100px 0px;
+    padding: 100px;
+}
+.col-66 {
+    width: 66.66%;
+}
+.col-33 {
+    width: 33.33%;
+}
+button {
+    color: darkgray;
+    cursor: pointer;
+}
+button:hover {
+    background-color: brown;
+}
+label {
+    font-size: 20px;
+}
+input , textarea {
+    width: 100%;
+    padding: 18px 0px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:1000px) {
+    
+}
